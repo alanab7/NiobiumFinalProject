@@ -1,4 +1,17 @@
 def motivation(is_correct, hints_used):
+    """ 
+    Gives the player feedback based on their guess and how many 
+    hints they used. 
+    
+    Args: 
+        is_correct: True if the guess is correct, False if the
+        guess is incorrect. 
+        hints_used: Number of hints the player used. 
+    
+    Returns: 
+        str: A message encouraging the player and showing how many
+        hints they used. 
+    """
     messages = []
 
     if is_correct:
